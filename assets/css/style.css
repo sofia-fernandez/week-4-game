@@ -1,0 +1,94 @@
+/* Crystals Collectors Game CSS Style Sheet */
+/* Author: Sofia Fernandez */
+body {
+	background-image: url("../images/background_image.jpg");
+	background-size: 100% 120%;
+}
+
+h1{
+	background-color: #f1e9d2;
+	color: black;
+	display:inline;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: solid 1px #ddd;
+}
+
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+}
+
+#gameInstructions {
+	background-color: #f1e9d2;
+	width: 50%;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ddd
+}
+
+#targetquota {
+	font-family: courier new;
+ 	font-weight: bold;
+	border-radius: 15px;
+	background-color: #f1e9d2;
+	float: left;
+	display: inline-block;
+	padding: 10px 10px 10px 10px;
+	margin-top: 10px;
+	border: solid 1px #ddd
+}
+
+#scoreboard {
+	font-family: courier new;
+ 	font-weight: bold;
+	border-radius: 15px;
+	background-color: #f1e9d2;
+	display: inline-block;
+	padding: 20px 20px 20px;
+	margin-top: 10px;
+	margin-left: 20px;
+	border: solid 1px #ddd
+
+}
+
+#crystalCollection {
+	margin-top: 15px;
+	margin-bottom:30px;
+}
+
+.crystalImage {
+    border:3px solid white;    
+    height:100px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:100px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+}
+
+#totalQuota {
+	margin-bottom: 50px;
+}
+
+#currentQuota {
+	border-radius: 15px;
+	background-color: #f1e9d2;
+	background-size: 100% 100%;
+	display: inline;
+	padding: 20px 20px 20px;
+}
+ .textFormat {
+ 	font-family: courier new;
+ 	font-weight: bold;
+ 	font-size: 20px;
+	color: black;
+}

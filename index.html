@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Crystal Collectors</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Sofia Fernandez">
+	<link rel="icon" type="image/png" href="assets/images/crystal_favicon.png">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+<div id = "wrapper">
+
+	<h1><span>Crystal Collectors!<span></h1>
+
+	<div id="gameInstructions">
+		<p>As a Crystal Collector, you will be given a random target quota at the start of the game.</p>
+		<p> There are four crystals below. By clicking on a crystal, you will collect a specific amount of points to your Current Quota.</p>
+		<p> You complete the game by matching your Current Quota to the random Target Quota. You fail the game if your Current Quota goes above the random Target Quota. </p>
+		<p> Each time the game starts, the game will change the values of each crystal.</p>
+	</div>
+
+	<div class = "container">
+		<div id="targetquota">
+			<h2>Target Quota: <span class="value"></span></h2> 	
+		</div>
+
+		<div id="scoreboard">
+			<h3><span id="status"></span></h3>
+			<h3>Completes: <span id="completes"></span></h3>
+			<h3>Fails: <span id="fails"></span> </h3>
+		</div>
+	</div>
+
+	
+	<div id="crystalCollection"></div>
+
+	<div id ="totalQuota">
+		<h2 id = "currentQuota" class="textFormat">Current Quota: <span id ="quotaScore">0</span></h2>	
+	</div>
+
+</div>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
